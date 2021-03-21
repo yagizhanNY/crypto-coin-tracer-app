@@ -1,0 +1,16 @@
+{
+  "name": "crypto-tracer-electron-app",
+  "version": "1.0.0",
+  "description": "Electron app for trace crypto coins' current currency",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./dist/main.js",
+    "build": "tsc -p ."
+  },
+  "author": "Yağızhan Necat YAKALI",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "12.0.1"
+  }
+}
